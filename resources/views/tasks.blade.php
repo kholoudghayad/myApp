@@ -3,7 +3,6 @@
 <head>
     <title>Tasks</title>
     <style type="text/css">
-        
         .color-red{ color: red;}
         .color-blue{ color:blue;}
         .is-loading { background: blueviolet;}
