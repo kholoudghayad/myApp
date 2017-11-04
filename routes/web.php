@@ -14,3 +14,16 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/mytasks', 'TaskController@index');
+
+Route::get('/mytasks1', function() {
+	$tasks = [
+		'Install and Run Laravel Framework',
+		'Git',
+		'Laravel',
+		'Vue.js',
+		'Send your work'
+	];
+    return view('tasks', compact('tasks'));
+});
